@@ -90,7 +90,7 @@ func RetrieveRecipientList(smsData Twilio) ResponseData {
 			// /fmt.Println("printing ph num", validReceipientList.Outgoing_caller_ids[0].Phone_number)
 			recipients := ""
 			for _, num := range validReceipientList.Outgoing_caller_ids {
-				recipients = num.Phone_number + ","
+				recipients = recipients + num.Phone_number + ","
 			}
 			recipients = recipients[0 : len(recipients)-1]
 			return ResponseData{200, "Success", recipients, ""}
