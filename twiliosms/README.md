@@ -98,7 +98,7 @@ The below example to send SMS to multiple recipients:
 	"AccountSid": "AC8112820c2969c0b9ba6abac8ee6a4062",
 	"AuthToken": "f2542c88dbfb58c494e642bf10af4140",
 	"UrlString": "https://api.twilio.com/2010-04-01/Accounts/",
-	"method":"Send SMS"
+	"method":"Send SMS",
 	"MsgData": "Final Code",
 	"To": "+9189908098098,+9189908098098",
 	"From": "+14437433811"
@@ -113,7 +113,7 @@ The below example to send SMS to single user:
 	"AccountSid": "AC8112820c2969c0b9ba6abac8ee6a4062",
 	"AuthToken": "f2542c88dbfb58c494e642bf10af4140",
 	"UrlString": "https://api.twilio.com/2010-04-01/Accounts/",
-	"method":"Send SMS"
+	"method":"Send SMS",
 	"MsgData": "Final Code",
 	"To": "+9189908098098",
 	"From": "+14437433811"
